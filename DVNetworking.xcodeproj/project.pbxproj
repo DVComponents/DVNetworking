@@ -15,6 +15,19 @@
 		631A94BF21B8225100215FCD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 631A94BE21B8225100215FCD /* main.m */; };
 		631A94C921B8225100215FCD /* DVNetworkingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 631A94C821B8225100215FCD /* DVNetworkingTests.m */; };
 		631A94D421B8225100215FCD /* DVNetworkingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 631A94D321B8225100215FCD /* DVNetworkingUITests.m */; };
+		631A957B21C5F9F700215FCD /* DVMobileGetCodeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 631A955A21C5F9F700215FCD /* DVMobileGetCodeManager.m */; };
+		631A957C21C5F9F700215FCD /* DVLoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 631A955B21C5F9F700215FCD /* DVLoginManager.m */; };
+		631A957D21C5F9F700215FCD /* DVBindMobileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 631A955C21C5F9F700215FCD /* DVBindMobileManager.m */; };
+		631A957E21C5F9F700215FCD /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 631A955F21C5F9F700215FCD /* CTMediator.m */; };
+		631A957F21C5F9F700215FCD /* DVValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 631A956221C5F9F700215FCD /* DVValidator.m */; };
+		631A958021C5F9F700215FCD /* DVAPIBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 631A956521C5F9F700215FCD /* DVAPIBaseManager.m */; };
+		631A958121C5F9F700215FCD /* DVApiProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 631A956821C5F9F700215FCD /* DVApiProxy.m */; };
+		631A958221C5F9F700215FCD /* NSDictionary+DVNetworkingMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 631A956D21C5F9F700215FCD /* NSDictionary+DVNetworkingMethods.m */; };
+		631A958321C5F9F700215FCD /* CTMediator+CTAppContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 631A957121C5F9F700215FCD /* CTMediator+CTAppContext.m */; };
+		631A958421C5F9F700215FCD /* NSError+DVValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 631A957421C5F9F700215FCD /* NSError+DVValidator.m */; };
+		631A958521C5F9F700215FCD /* DVAPIService.m in Sources */ = {isa = PBXBuildFile; fileRef = 631A957821C5F9F700215FCD /* DVAPIService.m */; };
+		631A958621C5F9F700215FCD /* DVServiceFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 631A957921C5F9F700215FCD /* DVServiceFactory.m */; };
+		F9250728C6BD67CD02916B03 /* libPods-DVNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E952BB5C9430A3DADBD4C8FD /* libPods-DVNetworking.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D05808D4E5B674F5CC1EED3 /* Pods-DVNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DVNetworking.release.xcconfig"; path = "Pods/Target Support Files/Pods-DVNetworking/Pods-DVNetworking.release.xcconfig"; sourceTree = "<group>"; };
 		631A94AC21B8224E00215FCD /* DVNetworking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DVNetworking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		631A94AF21B8224E00215FCD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		631A94B021B8224E00215FCD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +65,35 @@
 		631A94CF21B8225100215FCD /* DVNetworkingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DVNetworkingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		631A94D321B8225100215FCD /* DVNetworkingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DVNetworkingUITests.m; sourceTree = "<group>"; };
 		631A94D521B8225100215FCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		631A955621C5F9F700215FCD /* DVMobileGetCodeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVMobileGetCodeManager.h; sourceTree = "<group>"; };
+		631A955721C5F9F700215FCD /* DVLoginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVLoginManager.h; sourceTree = "<group>"; };
+		631A955821C5F9F700215FCD /* DVBindMobileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVBindMobileManager.h; sourceTree = "<group>"; };
+		631A955921C5F9F700215FCD /* DVLoginRegistDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVLoginRegistDefine.h; sourceTree = "<group>"; };
+		631A955A21C5F9F700215FCD /* DVMobileGetCodeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVMobileGetCodeManager.m; sourceTree = "<group>"; };
+		631A955B21C5F9F700215FCD /* DVLoginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVLoginManager.m; sourceTree = "<group>"; };
+		631A955C21C5F9F700215FCD /* DVBindMobileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVBindMobileManager.m; sourceTree = "<group>"; };
+		631A955F21C5F9F700215FCD /* CTMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTMediator.m; sourceTree = "<group>"; };
+		631A956021C5F9F700215FCD /* CTMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTMediator.h; sourceTree = "<group>"; };
+		631A956221C5F9F700215FCD /* DVValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVValidator.m; sourceTree = "<group>"; };
+		631A956321C5F9F700215FCD /* DVValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVValidator.h; sourceTree = "<group>"; };
+		631A956521C5F9F700215FCD /* DVAPIBaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVAPIBaseManager.m; sourceTree = "<group>"; };
+		631A956621C5F9F700215FCD /* DVAPIBaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVAPIBaseManager.h; sourceTree = "<group>"; };
+		631A956821C5F9F700215FCD /* DVApiProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVApiProxy.m; sourceTree = "<group>"; };
+		631A956921C5F9F700215FCD /* DVApiProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVApiProxy.h; sourceTree = "<group>"; };
+		631A956A21C5F9F700215FCD /* DVNetworkingDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVNetworkingDefines.h; sourceTree = "<group>"; };
+		631A956D21C5F9F700215FCD /* NSDictionary+DVNetworkingMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+DVNetworkingMethods.m"; sourceTree = "<group>"; };
+		631A956E21C5F9F700215FCD /* NSDictionary+DVNetworkingMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+DVNetworkingMethods.h"; sourceTree = "<group>"; };
+		631A957021C5F9F700215FCD /* CTMediator+CTAppContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CTMediator+CTAppContext.h"; sourceTree = "<group>"; };
+		631A957121C5F9F700215FCD /* CTMediator+CTAppContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+CTAppContext.m"; sourceTree = "<group>"; };
+		631A957321C5F9F700215FCD /* NSError+DVValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+DVValidator.h"; sourceTree = "<group>"; };
+		631A957421C5F9F700215FCD /* NSError+DVValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+DVValidator.m"; sourceTree = "<group>"; };
+		631A957621C5F9F700215FCD /* DVServiceFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVServiceFactory.h; sourceTree = "<group>"; };
+		631A957721C5F9F700215FCD /* DVAPIServiceDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVAPIServiceDefines.h; sourceTree = "<group>"; };
+		631A957821C5F9F700215FCD /* DVAPIService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVAPIService.m; sourceTree = "<group>"; };
+		631A957921C5F9F700215FCD /* DVServiceFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVServiceFactory.m; sourceTree = "<group>"; };
+		631A957A21C5F9F700215FCD /* DVAPIService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVAPIService.h; sourceTree = "<group>"; };
+		97AD9B50211F5A7C3C710732 /* Pods-DVNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DVNetworking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DVNetworking/Pods-DVNetworking.debug.xcconfig"; sourceTree = "<group>"; };
+		E952BB5C9430A3DADBD4C8FD /* libPods-DVNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DVNetworking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9250728C6BD67CD02916B03 /* libPods-DVNetworking.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +122,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C5445DE1638ACDCA6A2A7A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97AD9B50211F5A7C3C710732 /* Pods-DVNetworking.debug.xcconfig */,
+				3D05808D4E5B674F5CC1EED3 /* Pods-DVNetworking.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		631A94A321B8224E00215FCD = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +138,8 @@
 				631A94C721B8225100215FCD /* DVNetworkingTests */,
 				631A94D221B8225100215FCD /* DVNetworkingUITests */,
 				631A94AD21B8224E00215FCD /* Products */,
+				2C5445DE1638ACDCA6A2A7A2 /* Pods */,
+				A37449D012B266D73C590D52 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +156,7 @@
 		631A94AE21B8224E00215FCD /* DVNetworking */ = {
 			isa = PBXGroup;
 			children = (
+				631A955321C5F9F700215FCD /* DVNetworking */,
 				631A94AF21B8224E00215FCD /* AppDelegate.h */,
 				631A94B021B8224E00215FCD /* AppDelegate.m */,
 				631A94B221B8224E00215FCD /* ViewController.h */,
@@ -132,6 +188,144 @@
 			path = DVNetworkingUITests;
 			sourceTree = "<group>";
 		};
+		631A955321C5F9F700215FCD /* DVNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				631A956A21C5F9F700215FCD /* DVNetworkingDefines.h */,
+				631A955421C5F9F700215FCD /* Busines */,
+				631A955D21C5F9F700215FCD /* Components */,
+				631A956B21C5F9F700215FCD /* Categories */,
+				631A957521C5F9F700215FCD /* Services */,
+			);
+			path = DVNetworking;
+			sourceTree = "<group>";
+		};
+		631A955421C5F9F700215FCD /* Busines */ = {
+			isa = PBXGroup;
+			children = (
+				631A955521C5F9F700215FCD /* LoginRegist */,
+			);
+			path = Busines;
+			sourceTree = "<group>";
+		};
+		631A955521C5F9F700215FCD /* LoginRegist */ = {
+			isa = PBXGroup;
+			children = (
+				631A955621C5F9F700215FCD /* DVMobileGetCodeManager.h */,
+				631A955721C5F9F700215FCD /* DVLoginManager.h */,
+				631A955821C5F9F700215FCD /* DVBindMobileManager.h */,
+				631A955921C5F9F700215FCD /* DVLoginRegistDefine.h */,
+				631A955A21C5F9F700215FCD /* DVMobileGetCodeManager.m */,
+				631A955B21C5F9F700215FCD /* DVLoginManager.m */,
+				631A955C21C5F9F700215FCD /* DVBindMobileManager.m */,
+			);
+			path = LoginRegist;
+			sourceTree = "<group>";
+		};
+		631A955D21C5F9F700215FCD /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				631A955E21C5F9F700215FCD /* Reachable */,
+				631A956121C5F9F700215FCD /* Validator */,
+				631A956421C5F9F700215FCD /* BaseAPIManager */,
+				631A956721C5F9F700215FCD /* APIProxy */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		631A955E21C5F9F700215FCD /* Reachable */ = {
+			isa = PBXGroup;
+			children = (
+				631A955F21C5F9F700215FCD /* CTMediator.m */,
+				631A956021C5F9F700215FCD /* CTMediator.h */,
+			);
+			path = Reachable;
+			sourceTree = "<group>";
+		};
+		631A956121C5F9F700215FCD /* Validator */ = {
+			isa = PBXGroup;
+			children = (
+				631A956221C5F9F700215FCD /* DVValidator.m */,
+				631A956321C5F9F700215FCD /* DVValidator.h */,
+			);
+			path = Validator;
+			sourceTree = "<group>";
+		};
+		631A956421C5F9F700215FCD /* BaseAPIManager */ = {
+			isa = PBXGroup;
+			children = (
+				631A956521C5F9F700215FCD /* DVAPIBaseManager.m */,
+				631A956621C5F9F700215FCD /* DVAPIBaseManager.h */,
+			);
+			path = BaseAPIManager;
+			sourceTree = "<group>";
+		};
+		631A956721C5F9F700215FCD /* APIProxy */ = {
+			isa = PBXGroup;
+			children = (
+				631A956821C5F9F700215FCD /* DVApiProxy.m */,
+				631A956921C5F9F700215FCD /* DVApiProxy.h */,
+			);
+			path = APIProxy;
+			sourceTree = "<group>";
+		};
+		631A956B21C5F9F700215FCD /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				631A956C21C5F9F700215FCD /* NSDictionary */,
+				631A956F21C5F9F700215FCD /* Reachable */,
+				631A957221C5F9F700215FCD /* NSError */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		631A956C21C5F9F700215FCD /* NSDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				631A956D21C5F9F700215FCD /* NSDictionary+DVNetworkingMethods.m */,
+				631A956E21C5F9F700215FCD /* NSDictionary+DVNetworkingMethods.h */,
+			);
+			path = NSDictionary;
+			sourceTree = "<group>";
+		};
+		631A956F21C5F9F700215FCD /* Reachable */ = {
+			isa = PBXGroup;
+			children = (
+				631A957021C5F9F700215FCD /* CTMediator+CTAppContext.h */,
+				631A957121C5F9F700215FCD /* CTMediator+CTAppContext.m */,
+			);
+			path = Reachable;
+			sourceTree = "<group>";
+		};
+		631A957221C5F9F700215FCD /* NSError */ = {
+			isa = PBXGroup;
+			children = (
+				631A957321C5F9F700215FCD /* NSError+DVValidator.h */,
+				631A957421C5F9F700215FCD /* NSError+DVValidator.m */,
+			);
+			path = NSError;
+			sourceTree = "<group>";
+		};
+		631A957521C5F9F700215FCD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				631A957621C5F9F700215FCD /* DVServiceFactory.h */,
+				631A957721C5F9F700215FCD /* DVAPIServiceDefines.h */,
+				631A957821C5F9F700215FCD /* DVAPIService.m */,
+				631A957921C5F9F700215FCD /* DVServiceFactory.m */,
+				631A957A21C5F9F700215FCD /* DVAPIService.h */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A37449D012B266D73C590D52 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E952BB5C9430A3DADBD4C8FD /* libPods-DVNetworking.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +333,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 631A94D821B8225100215FCD /* Build configuration list for PBXNativeTarget "DVNetworking" */;
 			buildPhases = (
+				EAB1325CFF53D2419AECF389 /* [CP] Check Pods Manifest.lock */,
 				631A94A821B8224E00215FCD /* Sources */,
 				631A94A921B8224E00215FCD /* Frameworks */,
 				631A94AA21B8224E00215FCD /* Resources */,
@@ -257,14 +452,51 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		EAB1325CFF53D2419AECF389 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DVNetworking-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		631A94A821B8224E00215FCD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				631A958021C5F9F700215FCD /* DVAPIBaseManager.m in Sources */,
+				631A958121C5F9F700215FCD /* DVApiProxy.m in Sources */,
+				631A957F21C5F9F700215FCD /* DVValidator.m in Sources */,
+				631A958421C5F9F700215FCD /* NSError+DVValidator.m in Sources */,
+				631A957C21C5F9F700215FCD /* DVLoginManager.m in Sources */,
+				631A958621C5F9F700215FCD /* DVServiceFactory.m in Sources */,
+				631A958321C5F9F700215FCD /* CTMediator+CTAppContext.m in Sources */,
 				631A94B421B8224E00215FCD /* ViewController.m in Sources */,
+				631A957D21C5F9F700215FCD /* DVBindMobileManager.m in Sources */,
+				631A958521C5F9F700215FCD /* DVAPIService.m in Sources */,
+				631A958221C5F9F700215FCD /* NSDictionary+DVNetworkingMethods.m in Sources */,
 				631A94BF21B8225100215FCD /* main.m in Sources */,
 				631A94B121B8224E00215FCD /* AppDelegate.m in Sources */,
+				631A957B21C5F9F700215FCD /* DVMobileGetCodeManager.m in Sources */,
+				631A957E21C5F9F700215FCD /* CTMediator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +665,7 @@
 		};
 		631A94D921B8225100215FCD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97AD9B50211F5A7C3C710732 /* Pods-DVNetworking.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +682,7 @@
 		};
 		631A94DA21B8225100215FCD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D05808D4E5B674F5CC1EED3 /* Pods-DVNetworking.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
